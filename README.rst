@@ -9,8 +9,8 @@ this means is that developers can now write packages that add functionality to p
 * A high-level API access to a new external resource (pymatgen.ext); or
 * Support for input/output from another code, e.g., a new quantum chemistry software (pymatgen.io).
 
-For a real-world example using this template, check out `Materials Virtual Lab's pymatgen-diffusion
-<http://github.com/materialsvirtuallab/pymatgen-diffusion>`_.
+For a real-world example using this template, check out `Materials Virtual Lab's pymatgen-analysis-diffusion
+<http://github.com/materialsvirtuallab/pymatgen-analysis-diffusion>`_.
 
 Usage
 =====
