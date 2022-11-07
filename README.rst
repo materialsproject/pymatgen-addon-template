@@ -52,4 +52,3 @@ Afterwards, others will be able to install your package using::
 and all functionality will be available under::
 
     from pymatgen.<namespace>.<addon_name> import *
-
