@@ -32,7 +32,7 @@ repos:
         args: [--py38-plus]
 
   - repo: https://github.com/PyCQA/autoflake
-    rev: v2.2.0
+    rev: v2.2.1
     hooks:
       - id: autoflake
         args:
@@ -43,6 +43,6 @@ repos:
           - --ignore-init-module-imports
 
   - repo: https://github.com/pre-commit/mirrors-mypy
-    rev: v1.4.1
+    rev: v1.5.1
     hooks:
       - id: mypy
