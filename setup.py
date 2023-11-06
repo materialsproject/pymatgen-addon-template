@@ -12,7 +12,7 @@ setup(
     name="pymatgen-analysis-myaddon",
     packages=find_namespace_packages(include=["pymatgen.analysis.*"]),
     version="0.0.1",
-    install_requires=["pymatgen>=2023.11.7"],
+    install_requires=["pymatgen>=2023.8.10"],
     extras_require={
         "dev": [
             "pytest==7.1.2",
