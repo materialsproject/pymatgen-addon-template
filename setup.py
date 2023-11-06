@@ -13,7 +13,15 @@ setup(
     packages=find_namespace_packages(include=["pymatgen.analysis.*"]),
     version="0.0.1",
     install_requires=["pymatgen>=2023.11.7"],
-    extras_require={},
+    extras_require={
+        "dev": [
+            "pytest==7.1.2",
+            "pytest-cov==3.0.0",
+            "coverage==6.2",
+            "mypy==0.950",
+            "ruff",
+        ]
+    },
     package_data={},
     python_requires=">=3.9",
     author="materials virtual lab",
