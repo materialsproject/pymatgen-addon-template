@@ -1,3 +1,1 @@
-"""
-pymatgen-analysis-myaddon provides analysis for <some purposes>.
-"""
+"""pymatgen-analysis-myaddon provides analysis for <some purposes>."""
