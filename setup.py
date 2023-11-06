@@ -1,9 +1,6 @@
-# Copyright (c) Materials Virtual Lab
-# Distributed under the terms of the Modified BSD License.
-
-from setuptools import setup, find_namespace_packages
-
 import os
+
+from setuptools import find_namespace_packages, setup
 
 SETUP_PTH = os.path.dirname(os.path.abspath(__file__))
 
@@ -15,9 +12,10 @@ setup(
     name="pymatgen-analysis-myaddon",
     packages=find_namespace_packages(include=["pymatgen.analysis.*"]),
     version="0.0.1",
-    install_requires=["pymatgen>=2022.0.3"],
+    install_requires=["pymatgen>=2023.11.7"],
     extras_require={},
     package_data={},
+    python_requires=">=3.9",
     author="materials virtual lab",
     author_email="ongsp@eng.ucsd.edu",
     maintainer="materials virtual lab",
@@ -28,8 +26,9 @@ setup(
     keywords=["pymatgen"],
     classifiers=[
         "Programming Language :: Python :: 3",
-        "Programming Language :: Python :: 3.7",
-        "Programming Language :: Python :: 3.8",
+        "Programming Language :: Python :: 3.9",
+        "Programming Language :: Python :: 3.10",
+        "Programming Language :: Python :: 3.11",
         "Development Status :: 4 - Beta",
         "Intended Audience :: Science/Research",
         "License :: OSI Approved :: BSD License",
