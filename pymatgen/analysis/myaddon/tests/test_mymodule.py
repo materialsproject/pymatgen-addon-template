@@ -1,8 +1,9 @@
-import unittest
+"""Test the add function in my_module.py."""
 
-from pymatgen.analysis.myaddon.mymodule import myfunc
+from pymatgen.analysis.myaddon.my_module import add
 
 
-class FuncTest(unittest.TestCase):
-    def test_myfunc(self):
-        self.assertEqual(myfunc(1, 1), 2)
+def test_add():
+    """Pytest auto-discovers test_ prefixed functions in files with a test_ prefix."""
+    expected = 2
+    assert add(1, 1) == expected
